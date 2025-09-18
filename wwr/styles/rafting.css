@@ -44,7 +44,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia ul {
+nav ul {
     display: flex;
     list-style: none;
     gap: 10px;
