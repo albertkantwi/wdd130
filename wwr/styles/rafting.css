@@ -25,8 +25,16 @@ header, main, footer {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: space-around;
+    background: var(--bg-color);
+    align-items: center;
+}
+
+header span {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 header span img {
@@ -44,14 +52,20 @@ nav, p, section, article {
     padding: 8px;
 }
 
-nav ul {
+nav {
     display: flex;
-    list-style: none;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-.socialmedia a {
+nav a {
+    background: var(--primary-color);
     text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: var(--text-bg);
+    border: 1px solid var(--secondary-color);
 }
 
 .hero {
@@ -77,7 +91,7 @@ h1 {
 
 .hero article {
     position: absolute;
-    bottom: 30px;
+    top: 90px;
     background-color: var(--bg-color);
     align-items: center;
     margin: 15px;
