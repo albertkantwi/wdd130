@@ -422,15 +422,22 @@ form {
     gap: 2px;
 }
 
-.prev-trips div figure {
+.prev-trips div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 1rem;
 }
 
-.prev-trips div figure img {
+.trips-figure img {
     width: 100%;
 }
 
-.prev-trips div figure span {
+.trips-figure h2 {
+    font-size: 1.2rem;
+}
+
+.trips-figure p {
     color: var(--bg-color);
     text-align: center;
     margin: 0;
