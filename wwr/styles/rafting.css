@@ -324,13 +324,12 @@ form {
     font-weight: 400;
 }
 
-.home-hero article {
-    top: 370px;
+.home-hero p {
+    position: absolute;
+    top: 400px;
     background-color: var(--bg-color);
-}
-
-.home-hero article p {
     text-align: center;
+    padding: 1rem;
 }
 
 .home-hero h2 {
@@ -431,7 +430,7 @@ form {
     width: 100%;
 }
 
-.prev-trips div figure p {
+.prev-trips div figure span {
     color: var(--bg-color);
     text-align: center;
     margin: 0;
