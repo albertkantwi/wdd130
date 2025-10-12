@@ -324,4 +324,243 @@ form {
     font-weight: 400;
 }
 
+.home-hero article {
+    top: 370px;
+    background-color: var(--bg-color);
+}
+
+.home-hero article p {
+    text-align: center;
+}
+
+.home-hero h2 {
+    position: absolute;
+    top: 32px;
+    color: var(--bg-color);
+    text-align: center;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+
+}
+
+.home-hero h1 {
+    top: 20px;
+    padding-top: 40px;
+}
+
+.home-hero h1 span{
+    background: linear-gradient(180deg, #ff6b00, #814242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.cta-btn {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+.newsletter {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid var(--secondary-color);
+    margin: 1.5rem 0;
+    background-color: var(--primary-color);
+    align-items: center;
+}
+
+.newsletter-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 1rem;
+    height: 200px;
+}
+
+.newsletter-subscribe {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.newsletter-subscribe div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.newsletter-subscribe h2 {
+    text-align: center;
+}
+
+.newsletter-subscribe div input {
+    width: 100%;
+}
+
+.prev-trips div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.prev-trips div figure {
+    margin: 1rem;
+}
+
+.prev-trips div figure img {
+    width: 100%;
+}
+
+.prev-trips div figure p {
+    color: var(--bg-color);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.trips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--primary-color);
+    margin: 1rem 0;
+}
+
+.trips h1 {
+    position: static;
+    background: none;
+    color: var(--text-bg);
+    opacity: 100%;
+    margin: 0;
+}
+
+.trips h2 {
+    color: var(--text-sm);
+    margin: 0;
+    padding: 0;
+}
+
+.trips p {
+    text-align: center;
+    padding: 0;
+    margin: 0.2rem;
+}
+
+.trips-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: var(--primary-color);
+    margin: 1rem 0;
+}
+
+.first-section img {
+    width: 100%;
+}
+
+.first-section div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 240px;
+}
+
+.first-section div h2 {
+    text-align: center;
+}
+
+.first-section div a { 
+    position: absolute;
+    align-self: center;
+    margin: 1rem 0;
+    bottom: 0;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.second-section div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--secondary-color);
+    background: var(--bg-color);
+}
+
+.second-section div p {
+    margin: 0;
+    padding-top: 0.5rem;
+
+}
+
+.second-section div img {
+    height: 150px;
+}
+
+.table {
+    display: flex;
+    border: 1px solid var(--secondary-color);
+    align-items: center;
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
+}
+
+table {
+    align-self: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid var(--text-bg);
+}
+
+table caption {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--text-bg);
+
+}
+
+thead th {
+    background-color: var(--text-bg);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+th {
+    font-size: 1.2rem;
+    border: 1px solid var(--text-bg);
+    padding: 8px 20px;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: var(--bg-color);
+}
+
+.year-change {
+    background: var(--primary-color);
+}
 
