@@ -91,7 +91,7 @@ h1 {
     color: var(--primary-color);
 }
 
-.hero article {
+.hero div {
     position: absolute;
     top: 95px;
     background-color: var(--bg-color);
@@ -101,11 +101,10 @@ h1 {
     
 }
 
-.hero article img {
+.hero div img {
     float: right;
-    width: 155px;
-    height: auto;
-    margin-left: 8px ;
+    width: 140px;
+    margin: .5rem;
 }
 
 .hero-sub p {
