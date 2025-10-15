@@ -325,7 +325,7 @@ form {
 
 .home-hero p {
     position: absolute;
-    top: 400px;
+    top: 350px;
     background-color: var(--bg-color);
     text-align: center;
     padding: 1rem;
@@ -358,7 +358,7 @@ form {
 .cta-btn {
     display: inline-block;
     position: absolute;
-    bottom: 20px;
+    top: 450px;
     left: 50%;
     transform: translateX(-50%);
     background: var(--primary-color);
@@ -498,7 +498,7 @@ form {
     position: absolute;
     align-self: center;
     margin: 1rem 0;
-    bottom: 0;
+    top: 140px;
 }
 
 .second-section {
